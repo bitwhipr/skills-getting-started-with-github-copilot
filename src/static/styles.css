@@ -215,3 +215,29 @@ body.dark-mode button:hover {
 body.dark-mode footer {
   color: #888;
 }
+
+.participant-info {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.participant-info h4 {
+  margin-bottom: 10px;
+  color: #1a237e;
+}
+
+.participant-info p {
+  margin-bottom: 8px;
+}
+
+body.dark-mode .participant-info {
+  background-color: #1e1e1e;
+  border-color: #444;
+  color: #e0e0e0;
+}
